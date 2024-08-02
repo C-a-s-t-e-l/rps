@@ -1,0 +1,90 @@
+body {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #131842;
+    color: #e68369;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#contVs {
+    display: flex;
+    align-items: center;
+}
+
+
+
+#restartbtn {
+    display: none;
+    width: 120px;
+    height: 40px;
+    background-color: #e68369;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.defWeapon {
+    width: 100px;
+    height: 100px
+}
+
+.playField {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contPlay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 900px;
+}
+
+#choices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    border-radius: 20px;
+    width: 900px;
+    height: 150px;
+    background: #fbf6e2;
+}
+
+.btns {
+    background: #e68369;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+#btnChoices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    gap: 20px;
+}
+
+#txtBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    width: 50%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}

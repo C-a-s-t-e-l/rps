@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="rps.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Rock - Paper - Scissors</h1>
+
+    <div id="container">
+        <div id="contPlay">
+            <div class="playField">
+                <p id="playScores">0</p>
+                <img src="./icons/rock.png" class="defWeapon" id="playerWpn" alt="">
+                <p id="txtChoice">Choice</p>
+                <p>Player</p>
+            </div>
+            <div id="contVs">
+                <h2>VS</h2>
+            </div>
+            <div class="playField">
+                <p id="compScores">0</p>
+                <img src="./icons/erock.png" class="defWeapon" id="compWpn" alt="">
+                <p id="compTxtChoice">Choice</p>
+                <p>Computer</p>
+            </div>
+        </div>
+        <div id="choices">
+            <div id="btnChoices">
+                <button id="rockBtn" class="btns">Rock</button>
+                <button id="paperBtn" class="btns">Paper</button>
+                <button id="scissorBtn" class="btns">Scissors</button>
+            </div>
+            <div id="txtBox">
+                <p>Rock beats Scissor</p>
+                <p>Scissor beats Paper</p>
+                <p>Paper beats Rock</p>
+            </div>
+        </div>
+       
+            <button id="restartbtn">Restart</button>
+        
+    </div>
+</body>
+
+</html>
