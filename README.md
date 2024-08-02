@@ -1,2 +1,2 @@
 # rps
-odin - Rock paper scissors 
+odin - Rock paper scissors - updated with ui
