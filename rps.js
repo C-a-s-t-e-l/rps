@@ -143,6 +143,7 @@ function playRound(humanChoice, compChoice) {
             restartbtn.style.display = "none";
         });
     }
+    
 
 
 }
